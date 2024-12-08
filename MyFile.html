@@ -1,0 +1,371 @@
+<html>
+ <head>
+  <title>
+   My Files
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100 font-sans">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="w-64 bg-white h-screen shadow-md">
+         <div class="p-4 flex items-center">
+          <img alt="Logo" class="w-10 h-10 mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/Vznp30U83D5EJhzpC9JIU8gZAtrxnLxvHtueYie76yYAlUsTA.jpg" width="40"/>
+          <span class="text-xl font-semibold">
+           Smart Student Printing Service
+          </span>
+         </div>
+         <nav class="mt-6">
+          <ul>
+           <li class="px-4 py-2">
+            <button class="w-full text-left text-blue-500 font-semibold">
+             + New Print
+            </button>
+           </li>
+           <li class="px-4 py-2">
+            <a class="flex items-center text-gray-700" href="#">
+             <i class="fas fa-home mr-2">
+             </i>
+             Home
+            </a>
+           </li>
+           <li class="px-4 py-2">
+            <span class="text-gray-500">
+             Printing
+            </span>
+            <ul class="ml-4 mt-2">
+             <li class="py-1">
+              <a class="flex items-center text-gray-700" href="#">
+               <i class="fas fa-list mr-2">
+               </i>
+               Printer List
+              </a>
+             </li>
+             <li class="py-1">
+              <a class="flex items-center text-gray-700" href="#">
+               <i class="fas fa-history mr-2">
+               </i>
+               Print History
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class="px-4 py-2">
+            <span class="text-gray-500">
+             Storage
+            </span>
+            <ul class="ml-4 mt-2">
+             <li class="py-1">
+              <a class="flex items-center text-gray-700" href="#">
+               <i class="fas fa-file-alt mr-2">
+               </i>
+               My Files
+              </a>
+             </li>
+             <li class="py-1">
+              <a class="flex items-center text-gray-700" href="#">
+               <i class="fas fa-plug mr-2">
+               </i>
+               Integrations
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class="px-4 py-2">
+            <span class="text-gray-500">
+             Accounts
+            </span>
+            <ul class="ml-4 mt-2">
+             <li class="py-1">
+              <a class="flex items-center text-gray-700" href="#">
+               <i class="fas fa-user mr-2">
+               </i>
+               Profile
+              </a>
+             </li>
+             <li class="py-1">
+              <a class="flex items-center text-gray-700" href="#">
+               <i class="fas fa-credit-card mr-2">
+               </i>
+               SIU Payments
+              </a>
+             </li>
+             <li class="py-1">
+              <a class="flex items-center text-gray-700" href="#">
+               <i class="fas fa-cog mr-2">
+               </i>
+               Settings
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class="px-4 py-2">
+            <span class="text-gray-500">
+             Help
+            </span>
+            <ul class="ml-4 mt-2">
+             <li class="py-1">
+              <a class="flex items-center text-gray-700" href="#">
+               <i class="fas fa-question-circle mr-2">
+               </i>
+               Help Center
+              </a>
+             </li>
+             <li class="py-1">
+              <a class="flex items-center text-gray-700" href="#">
+               <i class="fas fa-comment-dots mr-2">
+               </i>
+               Feedback
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+         </nav>
+        </div>
+   <!-- Main Content -->
+   <div class="w-4/5 p-6">
+    <div class="flex justify-between items-center mb-6">
+     <h1 class="text-2xl font-bold">
+      My Files
+     </h1>
+     <div class="flex items-center">
+        <input class="border rounded-md p-2 mr-4" placeholder="Search..." type="text"/>
+        <button class="w-10 h-10 rounded-full overflow-hidden border-2 border-gray-300">
+         <img alt="User Avatar" class="w-full h-full object-cover" height="40" src="https://storage.googleapis.com/a1aa/image/gZXuzUiCqbKbGJUeQx6K8D7Kc2MnIeNhdkaM4XbeppDKFqYnA.jpg" width="40"/>
+        </button>
+       </div>
+    </div>
+    <p class="text-gray-600 mb-6">
+     Manage all your files in one place
+    </p>
+    <div class="grid grid-cols-3 gap-4">
+     <!-- File Card -->
+     <div class="bg-white p-4 rounded shadow">
+      <h2 class="font-bold">
+       Demo11.drawio.png
+      </h2>
+      <p class="text-gray-500 text-sm">
+       192 kB
+      </p>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-file-image text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        Demo11/png
+       </span>
+      </div>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-calendar-alt text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        05/12/2023 22:20
+       </span>
+      </div>
+     </div>
+     <!-- Repeat similar blocks for each file -->
+     <div class="bg-white p-4 rounded shadow">
+      <h2 class="font-bold">
+        Demo12.pdf
+      </h2>
+      <p class="text-gray-500 text-sm">
+       1.05 MB
+      </p>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-file-pdf text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        Demo12/pdf
+       </span>
+      </div>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-calendar-alt text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        05/12/2023 22:17
+       </span>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <h2 class="font-bold">
+        Demo13.png
+      </h2>
+      <p class="text-gray-500 text-sm">
+       135 kB
+      </p>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-file-image text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        Demo13/png
+       </span>
+      </div>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-calendar-alt text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        07/11/2023 00:00
+       </span>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <h2 class="font-bold">
+        Demo14.pdf
+      </h2>
+      <p class="text-gray-500 text-sm">
+       3.04 MB
+      </p>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-file-pdf text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        Demo14/pdf
+       </span>
+      </div>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-calendar-alt text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        06/11/2023 00:00
+       </span>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <h2 class="font-bold">
+        Demo15.pdf
+      </h2>
+      <p class="text-gray-500 text-sm">
+       1.71 MB
+      </p>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-file-pdf text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        Demo15/pdf
+       </span>
+      </div>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-calendar-alt text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        05/11/2023 00:00
+       </span>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <h2 class="font-bold">
+        Demo16.pdf
+      </h2>
+      <p class="text-gray-500 text-sm">
+       3.7 MB
+      </p>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-file-pdf text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        Demo16/pdf
+       </span>
+      </div>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-calendar-alt text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        04/11/2023 00:00
+       </span>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <h2 class="font-bold">
+        Demo17.pdf
+      </h2>
+      <p class="text-gray-500 text-sm">
+       2.57 MB
+      </p>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-file-pdf text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        Demo17/pdf
+       </span>
+      </div>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-calendar-alt text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        03/11/2023 00:00
+       </span>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <h2 class="font-bold">
+        DemoSIU.pdf
+      </h2>
+      <p class="text-gray-500 text-sm">
+       594 kB
+      </p>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-file-pdf text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        DemoSIU/pdf
+       </span>
+      </div>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-calendar-alt text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        02/11/2023 00:00
+       </span>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <h2 class="font-bold">
+       The Printer SIU Version 2.0, 2.1, and 2.2.pdf
+      </h2>
+      <p class="text-gray-500 text-sm">
+       363 kB
+      </p>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-file-pdf text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        application/pdf
+       </span>
+      </div>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-calendar-alt text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        01/11/2023 00:00
+       </span>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <h2 class="font-bold">
+       The New Printer SIU Version 2.0, 2.1, and 2.2.pdf
+      </h2>
+      <p class="text-gray-500 text-sm">
+       363 kB
+      </p>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-file-pdf text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        application/pdf
+       </span>
+      </div>
+      <div class="flex items-center mt-2">
+       <i class="fas fa-calendar-alt text-gray-500 mr-2">
+       </i>
+       <span class="text-gray-500 text-sm">
+        01/11/2023 00:00
+       </span>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
